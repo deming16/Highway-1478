@@ -35,6 +35,18 @@ public class PlayerMovement : MonoBehaviour {
                 transform.position -= laneSwitch * Time.deltaTime;
                 timePassed = 0f;
             }
+
+            if (Input.GetKey("d") && transform.position.x < 3)
+            {
+                transform.position += laneSwitch * Time.deltaTime;
+                timePassed = 0f;
+            }
+
+            if (Input.GetKey("a") && transform.position.x > -3)
+            {
+                transform.position -= laneSwitch * Time.deltaTime;
+                timePassed = 0f;
+            }
         }
     }
 

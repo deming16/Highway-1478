@@ -65,6 +65,15 @@ public class PlayerMovement2 : MonoBehaviour
             //rb.AddForce(Vector3.left * sideSpeed);
         }
 
+        if (transform.position.x <= 5 && Input.GetKey(KeyCode.RightArrow))
+        {
+            transform.position += transform.right * Time.deltaTime * sideSpeed;
+        }
+        if (transform.position.x >= -5 && Input.GetKey(KeyCode.LeftArrow))
+        {
+            transform.position -= transform.right * Time.deltaTime * sideSpeed;
+        }
+
         /*if (rb.velocity.y < 0)
         {
             rb.velocity += Vector3.up * Physics.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
@@ -73,7 +82,7 @@ public class PlayerMovement2 : MonoBehaviour
         {
             rb.velocity += Vector3.up * Physics.gravity.y * (lowMultiplier - 1) * Time.deltaTime;
         }*/
-        
+
     }
     
 }

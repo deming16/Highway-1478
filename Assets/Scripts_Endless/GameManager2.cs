@@ -8,13 +8,6 @@ public class GameManager2 : MonoBehaviour {
     bool gameHasEnded = false;
     public float restartDelay = 1f;
 
-    private void Update()
-    {
-        if (Input.GetKey("p"))
-        {
-            SceneManager.LoadScene(0);
-        }
-    }
     public void endGame()
     {
         if (gameHasEnded == false)
