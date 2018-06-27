@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Level01.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/Bryan's Stuff/Bryan's Scene.unity
+    path: Assets/Scenes/Endless_Highway.unity
     guid: bbfc468a3a53cb546901f2438aadc544
+  - enabled: 1
+    path: Assets/Scenes/Endless_Dungeon.unity
+    guid: e33e08d422fb74f4c9ea63cbd8ad5663
   m_configObjects: {}
