@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerCollision2 : MonoBehaviour {
+public class PlayerCollisionDungeon : MonoBehaviour {
 
 
     private void OnCollisionEnter(Collision collision)
@@ -10,7 +10,7 @@ public class PlayerCollision2 : MonoBehaviour {
         if (collision.collider.tag == "Obstacle")
         {
             GetComponent<PlayerMovement2>().enabled = false;
-            FindObjectOfType<GameManager2>().endGame();
+            FindObjectOfType<GameManager>().endGame();
         }
     }
 
