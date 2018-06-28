@@ -21,8 +21,6 @@ public class PlayerMovement2 : MonoBehaviour
     public float sideSpeed;
     public float jumpVelocity = 0;
     private bool jumpCheck;
-    private bool collideLeftWall = false;
-    private bool collideRightWall = false;
 
 
     void Start()
