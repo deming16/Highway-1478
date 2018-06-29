@@ -9,6 +9,7 @@ public class PlayerCollisionDungeon : MonoBehaviour {
     {
         if (collision.collider.tag == "Obstacle")
         {
+            FindObjectOfType<Score>().enabled = false;
             GetComponent<PlayerMovement2>().enabled = false;
             FindObjectOfType<GameManager>().endGame();
         }
