@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Endless_Dungeon.unity
     guid: e33e08d422fb74f4c9ea63cbd8ad5663
+  - enabled: 1
+    path: Assets/Scenes/Endless_Railway.unity
+    guid: 8b65adde8edc87f4199aedfff010c4d0
   m_configObjects: {}
