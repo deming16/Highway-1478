@@ -2,11 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class MainMenu : MonoBehaviour {
 
     public GameObject MainMenuUI;
     public GameObject[] EndlessSelectUI;
+    public GameObject PlayerSelectMenu;
+    public GameObject[] PlayerSelectUI;
+    public TMP_Text AvatarName;
     private int Index;
 
     public void PlayGame()
@@ -16,8 +20,10 @@ public class MainMenu : MonoBehaviour {
 
     public void EndlessSelect()
     {
+        EndlessSelectUI[Index].SetActive(false);
+        PlayerStats.Avatar = Index;
         Index = 0;
-        MainMenuUI.SetActive(false);
+        PlayerSelectMenu.SetActive(false);
         EndlessSelectUI[Index].SetActive(true);
     }
 
@@ -49,4 +55,35 @@ public class MainMenu : MonoBehaviour {
         Index = (Index - 1) % EndlessSelectUI.Length;
         EndlessSelectUI[Index].SetActive(true);
     }
+
+    public void PlayerSelect()
+    {
+        Index = 0;
+        MainMenuUI.SetActive(false);
+        PlayerSelectMenu.SetActive(true);
+        PlayerSelectUI[Index].SetActive(true);
+        AvatarName.text = PlayerSelectUI[Index].name;
+    }
+
+    public void NextPlayer ()
+    {
+        PlayerSelectUI[Index].SetActive(false);
+        Index = (Index + 1) % PlayerSelectUI.Length;
+        PlayerSelectUI[Index].SetActive(true);
+        AvatarName.text = PlayerSelectUI[Index].name;
+    }
+
+    public void PrevPlayer()
+    {
+        PlayerSelectUI[Index].SetActive(false);
+        if(Index - 1 < 0)
+        {
+            Index = PlayerSelectUI.Length;
+        }
+        Index = (Index - 1) % PlayerSelectUI.Length;
+        PlayerSelectUI[Index].SetActive(true);
+        AvatarName.text = PlayerSelectUI[Index].name;
+    }
+
+    
 }

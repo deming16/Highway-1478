@@ -9,7 +9,7 @@ public class PlayerCollisionHighway : MonoBehaviour {
         if (collision.collider.tag == "Obstacle")
         {
             GetComponent<PlayerMovementHighway>().enabled = false;
-            FindObjectOfType<GameManagerHighway>().endGame();
+            FindObjectOfType<GameManager>().endGame();
         }
     }
 }

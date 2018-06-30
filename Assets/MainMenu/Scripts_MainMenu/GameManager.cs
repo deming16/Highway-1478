@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour {
     public float restartDelay = 1f;
 
     public GameObject CompleteLevelUI;
+    public GameObject[] Avatars;
 
     // variables for going into night
     public GameObject DarkPanel;
@@ -14,6 +15,11 @@ public class GameManager : MonoBehaviour {
     public Camera cm;
     public GameObject PointLight;
     public GameObject DirectionalLight;
+
+    private void Start()
+    {
+        Avatars[PlayerStats.Avatar].SetActive(true);
+    }
 
     public void endGame() {
         if (gameHasEnded == false) {
