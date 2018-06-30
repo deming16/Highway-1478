@@ -340,8 +340,8 @@ GameObject:
   - component: {fileID: 240098698}
   - component: {fileID: 240098697}
   - component: {fileID: 240098696}
-  - component: {fileID: 240098695}
   - component: {fileID: 240098694}
+  - component: {fileID: 240098695}
   - component: {fileID: 240098693}
   m_Layer: 0
   m_Name: Player
@@ -358,7 +358,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 240098692}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99fe81e8d5d6fc84cb11adb262c2ce89, type: 3}
+  m_Script: {fileID: 11500000, guid: 89bd4f87749dcd94e9bd9f936ce50fd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!54 &240098694
@@ -384,7 +384,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 240098692}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e21bd430433cf3458651aded8b29065, type: 3}
+  m_Script: {fileID: 11500000, guid: 9d8b85665db4fbb419a74abf7230d6d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   GroundDistance: 0.7
