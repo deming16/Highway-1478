@@ -340,7 +340,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11ccef11744c3114995c647304cf2633, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  restartDelay: 1
 --- !u!1 &713184931
 GameObject:
   m_ObjectHideFlags: 0
@@ -372,6 +371,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PauseMenuUI: {fileID: 971848856}
+  audioManager: {fileID: 1385084289}
 --- !u!114 &713184933
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -955,7 +955,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
-  - name: HighwayTheme
+  - name: Endless_HighwayTheme
     clip: {fileID: 8300000, guid: cdd214a134bb9f04eb97fa6c3cba9434, type: 3}
     volume: 0.25
     pitch: 1

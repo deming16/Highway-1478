@@ -1,15 +1,28 @@
 ﻿using UnityEngine.Audio;
 using UnityEngine;
 using System;
+using UnityEngine.SceneManagement;
 
-public class AudioManagerHighway : MonoBehaviour
+public class AudioManagerGame : MonoBehaviour
 {
 
     public Sound[] sounds;
 
+    public static AudioManagerGame instance;
     // Use this for initialization
     void Awake()
     {
+
+            if (instance == null)
+            {
+                instance = this;
+            }
+            else
+            {
+                Destroy(gameObject);
+            }
+
+            DontDestroyOnLoad(gameObject);
 
         foreach (Sound s in sounds)
         {
@@ -24,7 +37,7 @@ public class AudioManagerHighway : MonoBehaviour
 
     void Start()
     {
-        Play("HighwayTheme");
+        Play(SceneManager.GetActiveScene().name + "Theme");
     }
 
     public void Play(string name)

@@ -2589,7 +2589,6 @@ MonoBehaviour:
   - {fileID: 262296199}
   - {fileID: 55791227}
   - {fileID: 1307980947}
-  audioManager: {fileID: 0}
 --- !u!1 &697426932
 GameObject:
   m_ObjectHideFlags: 0
