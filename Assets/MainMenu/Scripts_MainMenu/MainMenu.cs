@@ -8,6 +8,7 @@ public class MainMenu : MonoBehaviour {
     public GameObject MainMenuUI;
     public GameObject[] EndlessSelectUI;
     private int Index;
+    public AudioManager audioManager;
 
     public void PlayGame()
     {
