@@ -6,18 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MainMenu.unity
+    path: Assets/MainMenu/MainMenu.unity
     guid: 80d367c5c4bb4ac45a1a65725c1157b1
   - enabled: 1
-    path: Assets/Scenes/Level01.unity
+    path: Assets/Level01/Level01.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/Scenes/Endless_Highway.unity
+    path: Assets/EndlessHighway/Endless_Highway.unity
     guid: bbfc468a3a53cb546901f2438aadc544
   - enabled: 1
-    path: Assets/Scenes/Endless_Dungeon.unity
+    path: Assets/Endless_Dungeon/Endless_Dungeon.unity
     guid: e33e08d422fb74f4c9ea63cbd8ad5663
   - enabled: 1
-    path: Assets/Scenes/Endless_Skytrain.unity
+    path: Assets/Endless_Skytrain/Endless_Skytrain.unity
     guid: 8b65adde8edc87f4199aedfff010c4d0
   m_configObjects: {}
