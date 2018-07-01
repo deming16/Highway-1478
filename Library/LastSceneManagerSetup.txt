@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/MainMenu/MainMenu_FirstInstance.unity
+=======
+- path: Assets/EndlessHighway/Endless_Highway.unity
+>>>>>>> master
   isLoaded: 1
   isActive: 1
