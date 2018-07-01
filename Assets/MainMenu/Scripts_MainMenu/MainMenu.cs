@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
+using UnityEngine.UI;
 
 public class MainMenu : MonoBehaviour {
 
@@ -13,6 +14,8 @@ public class MainMenu : MonoBehaviour {
     public GameObject[] PlayerSelectUI;
     public TMP_Text AvatarName;
     private int Index;
+
+    public TMP_Text[] Scores;
 
     public void PlayGame()
     {
@@ -27,6 +30,7 @@ public class MainMenu : MonoBehaviour {
         PlayerSelectMenu.SetActive(false);
         EndlessSelectMenu.SetActive(true);
         EndlessSelectUI[Index].SetActive(true);
+        Scores[Index].text = "BEST : " + PlayerPrefs.GetInt(Scores[Index].name,0).ToString();
     }
 
     public void EndlessPlay()
@@ -45,6 +49,7 @@ public class MainMenu : MonoBehaviour {
         EndlessSelectUI[Index].SetActive(false);
         Index = (Index + 1) % EndlessSelectUI.Length;
         EndlessSelectUI[Index].SetActive(true);
+        Scores[Index].text = "BEST : " + PlayerPrefs.GetInt(Scores[Index].name, 0).ToString();
     }
 
     public void Prev()
@@ -56,6 +61,7 @@ public class MainMenu : MonoBehaviour {
         }
         Index = (Index - 1) % EndlessSelectUI.Length;
         EndlessSelectUI[Index].SetActive(true);
+        Scores[Index].text = "BEST : " + PlayerPrefs.GetInt(Scores[Index].name, 0).ToString();
     }
 
     public void PlayerSelect()

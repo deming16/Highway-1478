@@ -361,6 +361,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89bd4f87749dcd94e9bd9f936ce50fd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: {fileID: 1782343716}
 --- !u!54 &72232783
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1364,7 +1365,7 @@ MonoBehaviour:
   tilePrefabs:
   - {fileID: 1010872949752988, guid: 3747e8f173f40644680a674f819c60e7, type: 2}
   - {fileID: 1010872949752988, guid: 3747e8f173f40644680a674f819c60e7, type: 2}
-  - {fileID: 1010872949752988, guid: 3747e8f173f40644680a674f819c60e7, type: 2}
+  - {fileID: 1589594973929108, guid: e8dd744b6e220094baf37c2e441f0612, type: 2}
   - {fileID: 1589594973929108, guid: e8dd744b6e220094baf37c2e441f0612, type: 2}
   - {fileID: 1120272472369324, guid: 475c6584bfae3984fa84207fb4b65da5, type: 2}
   - {fileID: 1116384122195404, guid: 53e810d2e7b60fa448926b281f0910a6, type: 2}
@@ -1790,7 +1791,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1104
+  m_Text: 
 --- !u!222 &1782343717
 CanvasRenderer:
   m_ObjectHideFlags: 0

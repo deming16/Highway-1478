@@ -66,6 +66,7 @@
     <Compile Include="Assets\Endless_Dungeon\Scripts_Dungeon\TileManagerDungeon.cs" />
     <Compile Include="Assets\Endless_Skytrain\Scripts_Skytrain\CameraMovement.cs" />
     <Compile Include="Assets\Endless_Skytrain\Scripts_Skytrain\CameraScriptSkytrain.cs" />
+    <Compile Include="Assets\Endless_Skytrain\Scripts_Skytrain\EnemyMovementSkytrain.cs" />
     <Compile Include="Assets\Endless_Skytrain\Scripts_Skytrain\PlayerCollisionSkytrain.cs" />
     <Compile Include="Assets\Endless_Skytrain\Scripts_Skytrain\PlayerMovementSkytrain.cs" />
     <Compile Include="Assets\Endless_Skytrain\Scripts_Skytrain\TileManagerSkytrain.cs" />

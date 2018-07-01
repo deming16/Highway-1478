@@ -191,6 +191,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4889904004841330}
   - component: {fileID: 64917495558886050}
+  - component: {fileID: 114568481913258212}
   m_Layer: 0
   m_Name: Raiway carriage d
   m_TagString: Obstacle
@@ -694,7 +695,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1120272472369324}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 15.392286, y: 1, z: 12}
   m_Children:
@@ -708,7 +709,7 @@ Transform:
   - {fileID: 4889904004841330}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4862546586267406
 Transform:
   m_ObjectHideFlags: 1
@@ -742,7 +743,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1365717116855932}
-  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.3, y: 1.55, z: -0.0075000003}
   m_LocalScale: {x: 0.0019490282, y: 0.03, z: 0.0016666667}
   m_Children:
@@ -1742,3 +1743,15 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114568481913258212
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1365717116855932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 044c4e6f2b322df43ab6b2eb2ad96f00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemySpeed: 1
