@@ -979,16 +979,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2dd37700a2a81fc48a189183af13a278, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GroundDistance: 0.2
+  GroundDistance: 0.7
   Ground:
     serializedVersion: 2
     m_Bits: 1024
   rb: {fileID: 793442892}
   fallMultiplier: 2.5
   lowMultiplier: 2
-  forwardSpeed: 0
-  sideSpeed: 0
-  jumpVelocity: 0
+  forwardSpeed: 30
+  sideSpeed: 20
+  jumpVelocity: 12
 --- !u!1 &971848856
 GameObject:
   m_ObjectHideFlags: 0
