@@ -7,6 +7,7 @@ using TMPro;
 public class MainMenu : MonoBehaviour {
 
     public GameObject MainMenuUI;
+    public GameObject EndlessSelectMenu;
     public GameObject[] EndlessSelectUI;
     public GameObject PlayerSelectMenu;
     public GameObject[] PlayerSelectUI;
@@ -20,10 +21,11 @@ public class MainMenu : MonoBehaviour {
 
     public void EndlessSelect()
     {
-        EndlessSelectUI[Index].SetActive(false);
+        PlayerSelectUI[Index].SetActive(false);
         PlayerStats.Avatar = Index;
         Index = 0;
         PlayerSelectMenu.SetActive(false);
+        EndlessSelectMenu.SetActive(true);
         EndlessSelectUI[Index].SetActive(true);
     }
 
