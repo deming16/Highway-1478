@@ -53,8 +53,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sounds:
   - name: Endless_HighwayTheme
-    clip: {fileID: 8300000, guid: cdd214a134bb9f04eb97fa6c3cba9434, type: 3}
-    volume: 0.5
+    clip: {fileID: 8300000, guid: f933dfa45444d624f98a463fa7a92d55, type: 3}
+    volume: 0.38
     pitch: 1
     loop: 1
     source: {fileID: 0}

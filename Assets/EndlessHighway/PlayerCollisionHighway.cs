@@ -11,6 +11,7 @@ public class PlayerCollisionHighway : MonoBehaviour {
     {
         if (collision.collider.tag == "Obstacle")
         {
+            GameObject.Find("AudioManager").GetComponent<AudioManagerGame>().Play("Crash");
             if (PlayerPrefs.GetInt("HighwayScore", 0) < int.Parse(score.text))
             {
                 PlayerPrefs.SetInt("HighwayScore", int.Parse(score.text));

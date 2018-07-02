@@ -13,6 +13,7 @@ public class MainMenu : MonoBehaviour {
     public GameObject PlayerSelectMenu;
     public GameObject[] PlayerSelectUI;
     public GameObject ControlMenu;
+    public GameObject CreditScene;
     public TMP_Text AvatarName;
     private int Index;
 
@@ -108,6 +109,18 @@ public class MainMenu : MonoBehaviour {
     public void BackControlMenu()
     {
         ControlMenu.SetActive(false);
+        MainMenuUI.SetActive(true);
+    }
+
+    public void Credits()
+    {
+        MainMenuUI.SetActive(false);
+        CreditScene.SetActive(true);
+    }
+
+    public void CreditsBack()
+    {
+        CreditScene.SetActive(false);
         MainMenuUI.SetActive(true);
     }
 
