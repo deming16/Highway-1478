@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/MainMenu/MainMenu.unity
+- path: Assets/EndlessHighway/Endless_Highway.unity
   isLoaded: 1
   isActive: 1

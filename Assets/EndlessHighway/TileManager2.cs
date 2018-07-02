@@ -12,6 +12,7 @@ public class TileManager2 : MonoBehaviour {
     private List<GameObject> activeTiles =new List<GameObject>();
     private float safeZone = 40f;
     private int lastPrefabIdx = 0;
+    
 
 	// Use this for initialization
 	void Start () {
@@ -67,8 +68,10 @@ public class TileManager2 : MonoBehaviour {
         while(randomIndex == lastPrefabIdx)
         {
             randomIndex = Random.Range(0, tilePrefabs.Length);
+            
         }
         lastPrefabIdx = randomIndex;
+
         return randomIndex;
     }
 }

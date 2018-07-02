@@ -1079,14 +1079,14 @@ MonoBehaviour:
   tilePrefabs:
   - {fileID: 1517413374449178, guid: 7395aa68298a09d44918a492a01727ef, type: 2}
   - {fileID: 1978761623979966, guid: 92633a020f066d44ca384ed0035b6550, type: 2}
-  - {fileID: 1666353167097050, guid: 78990f137b0954b4e862e127e7ec8358, type: 2}
-  - {fileID: 1528481512592812, guid: eb8f38fddaa30334782fc5dcff0dc6c8, type: 2}
-  - {fileID: 1066183592467076, guid: afe8ce69b548b9c4aa10361f0a5cd66e, type: 2}
+  - {fileID: 1492658922681030, guid: 78990f137b0954b4e862e127e7ec8358, type: 2}
+  - {fileID: 1057519347488962, guid: eb8f38fddaa30334782fc5dcff0dc6c8, type: 2}
+  - {fileID: 1272313151966904, guid: 9eab8928e1135d94ca162a785e974b12, type: 2}
   - {fileID: 1071798469166314, guid: 7040e4a8dca01904f9364d87dbdd2e16, type: 2}
   - {fileID: 1272313151966904, guid: 9eab8928e1135d94ca162a785e974b12, type: 2}
   - {fileID: 1573456211972392, guid: 3d00d7d506dd9a3449757672c64437f9, type: 2}
   - {fileID: 1272313151966904, guid: 9eab8928e1135d94ca162a785e974b12, type: 2}
-  - {fileID: 1573456211972392, guid: 3d00d7d506dd9a3449757672c64437f9, type: 2}
+  - {fileID: 1176311602249202, guid: b01d7e6d460145847a4ae42e6ef627dc, type: 2}
 --- !u!4 &1033771156
 Transform:
   m_ObjectHideFlags: 0
@@ -1611,6 +1611,16 @@ Prefab:
     - target: {fileID: 1749161659667290, guid: bf2621616c3b7c340aceb481847b0a93, type: 2}
       propertyPath: m_Name
       value: AudioManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 114386540705295276, guid: bf2621616c3b7c340aceb481847b0a93,
+        type: 2}
+      propertyPath: sounds.Array.data[0].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: f933dfa45444d624f98a463fa7a92d55, type: 3}
+    - target: {fileID: 114386540705295276, guid: bf2621616c3b7c340aceb481847b0a93,
+        type: 2}
+      propertyPath: sounds.Array.data[0].volume
+      value: 0.38
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bf2621616c3b7c340aceb481847b0a93, type: 2}
