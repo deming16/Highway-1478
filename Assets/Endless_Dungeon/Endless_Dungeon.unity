@@ -1276,6 +1276,7 @@ MonoBehaviour:
   - {fileID: 1136121259403254, guid: 361ad07efdb41b441bd0b8d477ffc1d5, type: 2}
   - {fileID: 1914012766657960, guid: e8da4a946114d6d4a8117c27874361cb, type: 2}
   - {fileID: 1987244476088914, guid: 50fce30c0720e6a4c9c45f1d0f321e65, type: 2}
+  - {fileID: 1890092831985518, guid: 5c507aaea6d664d4394a426c2cc4a072, type: 2}
   gameManager: {fileID: 408207501}
   TriggerDelay: 10
 --- !u!4 &1033771156
