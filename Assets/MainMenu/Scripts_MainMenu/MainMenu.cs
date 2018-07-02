@@ -17,6 +17,11 @@ public class MainMenu : MonoBehaviour {
 
     public TMP_Text[] Scores;
 
+    private void Start()
+    {
+        GameObject.Find("MainMenu").GetComponent<Animator>().SetBool("FirstLaunch", true);
+    }
+
     public void PlayGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
