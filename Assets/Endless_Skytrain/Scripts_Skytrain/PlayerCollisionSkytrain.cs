@@ -11,6 +11,7 @@ public class PlayerCollisionSkytrain : MonoBehaviour {
     {
         if (collision.collider.tag == "Obstacle")
         {
+            GameObject.Find("AudioManager").GetComponent<AudioManagerGame>().Play("Crash");
             FindObjectOfType<Score>().enabled = false;
 
             if (PlayerPrefs.GetInt("SkytrainScore", 0) < int.Parse(score.text))

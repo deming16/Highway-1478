@@ -12,10 +12,16 @@ public class MainMenu : MonoBehaviour {
     public GameObject[] EndlessSelectUI;
     public GameObject PlayerSelectMenu;
     public GameObject[] PlayerSelectUI;
+    public GameObject ControlMenu;
     public TMP_Text AvatarName;
     private int Index;
 
     public TMP_Text[] Scores;
+
+    private void Start()
+    {
+        GameObject.Find("MainMenu").GetComponent<Animator>().SetBool("FirstLaunch", true);
+    }
 
     public void PlayGame()
     {
@@ -91,6 +97,18 @@ public class MainMenu : MonoBehaviour {
         Index = (Index - 1) % PlayerSelectUI.Length;
         PlayerSelectUI[Index].SetActive(true);
         AvatarName.text = PlayerSelectUI[Index].name;
+    }
+
+    public void ControlMenuActivate()
+    {
+        MainMenuUI.SetActive(false);
+        ControlMenu.SetActive(true);
+    }
+
+    public void BackControlMenu()
+    {
+        ControlMenu.SetActive(false);
+        MainMenuUI.SetActive(true);
     }
 
     

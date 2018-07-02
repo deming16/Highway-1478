@@ -1,6 +1,6 @@
 WindowsStandalone
 PlayerPath?
-C:/Users/Deming Lin/Desktop/New folder (4)/New folder (4).exe
+C:/Users/Deming Lin/Desktop/New folder (6)/New folder (6).exe
 SceneListBegin?
 Assets/MainMenu/MainMenu_FirstInstance.unity
 Assets/MainMenu/MainMenu.unity
@@ -153,7 +153,7 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 50a0fa002cfc67638c87a901e46b763e Assembly-CSharp.dll:TMPro.Examples.TMP_TextSelector_B
-7ad6bcb9f8e0f30b16d8b9c50be84f94 Assembly-CSharp.dll:.MainMenu
+152adfd245a10bc551c6e86d858c2417 Assembly-CSharp.dll:.MainMenu
 020550babdb991365f61c5bffe1f4f52 Assembly-CSharp.dll:TMPro.Examples.Benchmark03
 b9332c0eee630779376843b5343eb250 Assembly-CSharp.dll:TMPro.Examples.TMP_TextInfoDebugTool
 27dd28b00bbc9cce1ef64cb2800fb93e Assembly-CSharp.dll:.PlayerMovementSkytrain
@@ -205,7 +205,7 @@ d27699dfc30c2a21439bbef1ad43c8ea Assembly-CSharp.dll:.DayTrigger
 4c4d2117bd2fbec66edb9a6291eb558d Assembly-CSharp.dll:.PlayerCollisionDungeon
 76015de5fcb247eeb8df66c001d5a22d Assembly-CSharp.dll:TMPro.Examples.TMP_FrameRateCounter
 b8f04bdad423045528c67dfa4c3dca0d Assembly-CSharp.dll:TMPro.Examples.VertexShakeA
-24b37d46e6c7dfdab5348878abb50fd2 Assembly-CSharp.dll:.PauseMenu
+f266fa9908ce9d57b9f4dfeb413a2b3d Assembly-CSharp.dll:.PauseMenu
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
 60b2bb652410a5867a5ab9a01cd38461 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkDiscovery
@@ -263,6 +263,6 @@ a1fd1a1252d0ae3b01a09f36ac637233 Assembly-CSharp.dll:.AudioManagerNormal
 d27699dfc30c2a21439bbef1ad43c8ea Assembly-CSharp.dll:.EndTrigger
 a69b3ee0402770d02d1c122324e4b00e Assembly-CSharp.dll:TMPro.Examples.SkewTextExample
 442398300cdf1e783feb1742c984b3a5 Assembly-CSharp.dll:.PlayerCollision
+f036b0ab1fd4f3032aef5573020c5fdc Assembly-CSharp.dll:.EnemyMovementSkytrain
 34e025057ef78b1bf238460cdf6583a3 Assembly-CSharp.dll:TMPro.Examples.ObjectSpin
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:TMPro.Examples.SimpleScript
-f036b0ab1fd4f3032aef5573020c5fdc Assembly-CSharp.dll:.EnemyMovementSkytrain
