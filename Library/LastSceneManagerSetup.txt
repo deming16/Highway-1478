@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Endless_Skytrain/Endless_Skytrain.unity
+- path: Assets/Endless_Dungeon/Endless_Dungeon.unity
   isLoaded: 1
   isActive: 1

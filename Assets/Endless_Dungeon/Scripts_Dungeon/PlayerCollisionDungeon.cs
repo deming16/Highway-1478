@@ -11,6 +11,7 @@ public class PlayerCollisionDungeon : MonoBehaviour {
     {
         if (collision.collider.tag == "Obstacle")
         {
+            GameObject.Find("AudioManager").GetComponent<AudioManagerGame>().Play("Crash");
             if (PlayerPrefs.GetInt("DungeonScore", 0) < int.Parse(score.text))
             {
                 PlayerPrefs.SetInt("DungeonScore", int.Parse(score.text));
