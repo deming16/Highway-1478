@@ -200,7 +200,7 @@ RectTransform:
   m_Children:
   - {fileID: 409188651}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -433,6 +433,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 1514234639359914, guid: b81a060ba6f246b4eba3ee640b53e04d, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b81a060ba6f246b4eba3ee640b53e04d, type: 2}
   m_IsPrefabParent: 0
@@ -626,7 +630,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1959890408099362, guid: 3b5becd1228e2f1479d7174146fdbdd7, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3b5becd1228e2f1479d7174146fdbdd7, type: 2}
@@ -960,7 +964,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 793442891}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -1661,7 +1665,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4606743339430582, guid: bf2621616c3b7c340aceb481847b0a93, type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1749161659667290, guid: bf2621616c3b7c340aceb481847b0a93, type: 2}
       propertyPath: m_Name

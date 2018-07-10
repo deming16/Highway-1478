@@ -38,9 +38,10 @@ GameObject:
   - component: {fileID: 4397003018945654}
   - component: {fileID: 33029164285521922}
   - component: {fileID: 23321471687252690}
+  - component: {fileID: 64018921460127592}
   m_Layer: 0
   m_Name: SpearLauncher
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54,11 +55,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4143833342585072}
   - component: {fileID: 111159344172271602}
-  - component: {fileID: 65674029619919726}
   - component: {fileID: 114964760238392914}
   m_Layer: 0
   m_Name: Pf_SpearTrap (3)
-  m_TagString: Obstacle
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -73,9 +73,10 @@ GameObject:
   - component: {fileID: 4667410377078404}
   - component: {fileID: 33673367547664402}
   - component: {fileID: 23044900726181432}
+  - component: {fileID: 64724871141969214}
   m_Layer: 0
   m_Name: Spear
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -90,9 +91,10 @@ GameObject:
   - component: {fileID: 4331332288145740}
   - component: {fileID: 33409225896237934}
   - component: {fileID: 23437841746262152}
+  - component: {fileID: 64668050787108012}
   m_Layer: 0
   m_Name: Spear
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -107,9 +109,10 @@ GameObject:
   - component: {fileID: 4271190140808638}
   - component: {fileID: 33160363656297216}
   - component: {fileID: 23789162923277626}
+  - component: {fileID: 64823013692915810}
   m_Layer: 0
   m_Name: SpearLauncher
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -123,11 +126,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4369591499161652}
   - component: {fileID: 111060801073165714}
-  - component: {fileID: 65004502206294258}
   - component: {fileID: 114367473213438256}
   m_Layer: 0
   m_Name: Pf_SpearTrap (2)
-  m_TagString: Obstacle
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -227,9 +229,10 @@ GameObject:
   - component: {fileID: 4972539146418900}
   - component: {fileID: 33266977331913298}
   - component: {fileID: 23945787764519678}
+  - component: {fileID: 64601003601048748}
   m_Layer: 0
   m_Name: Spear
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -278,11 +281,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4137254077112218}
   - component: {fileID: 111134178845205756}
-  - component: {fileID: 65028282689233136}
   - component: {fileID: 114510653099708668}
   m_Layer: 0
   m_Name: Pf_SpearTrap (1)
-  m_TagString: Obstacle
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -297,9 +299,10 @@ GameObject:
   - component: {fileID: 4234440079741590}
   - component: {fileID: 33737760807331078}
   - component: {fileID: 23840202415003832}
+  - component: {fileID: 64968100546717672}
   m_Layer: 0
   m_Name: SpearLauncher
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -331,9 +334,10 @@ GameObject:
   - component: {fileID: 4549790952835646}
   - component: {fileID: 33769490242420304}
   - component: {fileID: 23280706282544038}
+  - component: {fileID: 64029201411439558}
   m_Layer: 0
   m_Name: Spear
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -347,11 +351,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4926416982905258}
   - component: {fileID: 111752549344434368}
-  - component: {fileID: 65904082628694458}
   - component: {fileID: 114296571843475968}
   m_Layer: 0
   m_Name: Pf_SpearTrap
-  m_TagString: Obstacle
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -417,9 +420,10 @@ GameObject:
   - component: {fileID: 4938941049346140}
   - component: {fileID: 33529001004912890}
   - component: {fileID: 23783793396734250}
+  - component: {fileID: 64835751036702956}
   m_Layer: 0
   m_Name: SpearLauncher
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -560,7 +564,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1492658922681030}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 42.947742, y: 59.06103, z: 97.77307}
+  m_LocalPosition: {x: 585.63007, y: 408.77316, z: -15.803831}
   m_LocalScale: {x: 7, y: 1, z: 4}
   m_Children:
   - {fileID: 4557454961453666}
@@ -1762,6 +1766,118 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1417732354729434}
   m_Mesh: {fileID: 4300000, guid: 1e4b37dee538fa643a1b61b19e1ff33c, type: 3}
+--- !u!64 &64018921460127592
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1032700974200648}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: 6d1acf5ed9a24034892904fdd6c59359, type: 3}
+--- !u!64 &64029201411439558
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1624193950227792}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: edebf8234a6037b40abab643812d316a, type: 3}
+--- !u!64 &64601003601048748
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1407186055321608}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: edebf8234a6037b40abab643812d316a, type: 3}
+--- !u!64 &64668050787108012
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1063459264112956}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: edebf8234a6037b40abab643812d316a, type: 3}
+--- !u!64 &64724871141969214
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1035762314265106}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: edebf8234a6037b40abab643812d316a, type: 3}
+--- !u!64 &64823013692915810
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1094257953972346}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: 6d1acf5ed9a24034892904fdd6c59359, type: 3}
+--- !u!64 &64835751036702956
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1874738330352230}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: 6d1acf5ed9a24034892904fdd6c59359, type: 3}
+--- !u!64 &64968100546717672
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1508602880039890}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: 6d1acf5ed9a24034892904fdd6c59359, type: 3}
 --- !u!64 &64969253104381102
 MeshCollider:
   m_ObjectHideFlags: 1
@@ -1776,54 +1892,6 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!65 &65004502206294258
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1098620434385832}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.9, y: 10, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &65028282689233136
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1501587447325078}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.9, y: 10, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &65674029619919726
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1035703539211868}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.9, y: 10, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &65904082628694458
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1649866941670598}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.9, y: 10, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!111 &111060801073165714
 Animation:
   m_ObjectHideFlags: 1

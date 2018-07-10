@@ -21,9 +21,10 @@ GameObject:
   - component: {fileID: 4976422008035618}
   - component: {fileID: 33214203554207178}
   - component: {fileID: 23226165009054504}
+  - component: {fileID: 64431171889703986}
   m_Layer: 0
   m_Name: Trap_Cutter
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -123,11 +124,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4177818309332596}
   - component: {fileID: 111482758617036664}
-  - component: {fileID: 65234949183937164}
   - component: {fileID: 114423554962836454}
   m_Layer: 0
   m_Name: Pf_Trap_Cutter
-  m_TagString: Obstacle
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -160,9 +160,10 @@ GameObject:
   - component: {fileID: 33330425101615570}
   - component: {fileID: 23310937910976942}
   - component: {fileID: 114162459189984670}
+  - component: {fileID: 64733100492613992}
   m_Layer: 0
   m_Name: GreatAxe
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -177,9 +178,10 @@ GameObject:
   - component: {fileID: 4957124424719426}
   - component: {fileID: 33515829169350100}
   - component: {fileID: 23343117684488382}
+  - component: {fileID: 64933947091945410}
   m_Layer: 0
   m_Name: GreatAxeRing
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -228,10 +230,10 @@ GameObject:
   - component: {fileID: 4624438936742680}
   - component: {fileID: 33830857570128936}
   - component: {fileID: 23292398908740160}
-  - component: {fileID: 65826140623916218}
+  - component: {fileID: 64566919972538722}
   m_Layer: 0
   m_Name: Cutter
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -263,10 +265,9 @@ GameObject:
   - component: {fileID: 4403531551968018}
   - component: {fileID: 111787856351665574}
   - component: {fileID: 114635203698666606}
-  - component: {fileID: 65988898636685422}
   m_Layer: 0
   m_Name: Pf_GreatAxeTrap
-  m_TagString: Obstacle
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -506,7 +507,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1176311602249202}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 44.75417, y: 60.245304, z: 81.16237}
+  m_LocalPosition: {x: 581.389, y: 399.90063, z: -10.29216}
   m_LocalScale: {x: 7, y: 1, z: 4}
   m_Children:
   - {fileID: 4242514298162878}
@@ -1331,6 +1332,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1758383764091788}
   m_Mesh: {fileID: 4300000, guid: 1e4b37dee538fa643a1b61b19e1ff33c, type: 3}
+--- !u!64 &64431171889703986
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1147257990896610}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300002, guid: 9bf07121db191094aa8381ef67016a19, type: 3}
 --- !u!64 &64479723999605456
 MeshCollider:
   m_ObjectHideFlags: 1
@@ -1345,20 +1360,8 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!65 &65234949183937164
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1453082666544794}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &65826140623916218
-BoxCollider:
+--- !u!64 &64566919972538722
+MeshCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -1366,21 +1369,39 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 0.2, z: 1}
-  m_Center: {x: 0, y: 0.4, z: 0}
---- !u!65 &65988898636685422
-BoxCollider:
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: 9bf07121db191094aa8381ef67016a19, type: 3}
+--- !u!64 &64733100492613992
+MeshCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1813225036508214}
+  m_GameObject: {fileID: 1470557625867788}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 4.2, y: 10, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: b9cb6abd86b0af442b58106bea0f3ebe, type: 3}
+--- !u!64 &64933947091945410
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1493566824527382}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: bab1d8e407bbb19498ba98659c7ea4af, type: 3}
 --- !u!111 &111482758617036664
 Animation:
   m_ObjectHideFlags: 1
