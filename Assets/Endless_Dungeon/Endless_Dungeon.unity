@@ -1280,6 +1280,7 @@ MonoBehaviour:
   - {fileID: 1987244476088914, guid: 50fce30c0720e6a4c9c45f1d0f321e65, type: 2}
   - {fileID: 1890092831985518, guid: 5c507aaea6d664d4394a426c2cc4a072, type: 2}
   - {fileID: 1136121259403254, guid: 361ad07efdb41b441bd0b8d477ffc1d5, type: 2}
+  - {fileID: 1447185767652588, guid: af966645abd37ec4c8c1f860bb0d229b, type: 2}
   gameManager: {fileID: 408207501}
   TriggerDelay: 10
 --- !u!4 &1033771156
@@ -1710,7 +1711,7 @@ Light:
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1.3
-  m_Range: 70
+  m_Range: 60
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
