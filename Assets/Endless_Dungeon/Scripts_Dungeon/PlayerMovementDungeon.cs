@@ -21,12 +21,14 @@ public class PlayerMovementDungeon : MonoBehaviour
     public float sideSpeed;
     public float jumpVelocity = 0;
     private bool jumpCheck;
+    private float Top;
 
 
     void Start()
     {
         
         _groundChecker = transform.GetChild(0);
+        Top =  GameObject.Find("Player").transform.position.y + 6f;
     }
     private void Update()
     {
@@ -49,6 +51,11 @@ public class PlayerMovementDungeon : MonoBehaviour
 
             forwardSpeed += 0.1f * Time.deltaTime;
             sideSpeed += 0.1f * Time.deltaTime;
+        }
+
+        if(GameObject.Find("Player").transform.position.y >= Top)
+        {
+            rb.AddForce(-Vector3.up * jumpVelocity, ForceMode.VelocityChange);
         }
 
 
