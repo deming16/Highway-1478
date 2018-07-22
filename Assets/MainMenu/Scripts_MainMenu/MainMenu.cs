@@ -51,6 +51,13 @@ public class MainMenu : MonoBehaviour {
         MainMenuUI.SetActive(true);
     }
 
+    public void PlayerMenuBack()
+    {
+        PlayerSelectUI[Index].SetActive(false);
+        PlayerSelectMenu.SetActive(false);
+        MainMenuUI.SetActive(true);
+    }
+
     public void Next()
     {
         EndlessSelectUI[Index].SetActive(false);
