@@ -1033,8 +1033,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1024
   rb: {fileID: 793442892}
-  fallMultiplier: 2.5
-  lowMultiplier: 2
+  dashSpeed: 30
   forwardSpeed: 30
   sideSpeed: 20
   jumpVelocity: 18
