@@ -397,7 +397,7 @@ MonoBehaviour:
   lowMultiplier: 2
   forwardSpeed: 30
   sideSpeed: 24
-  jumpVelocity: 12
+  jumpVelocity: 18
 --- !u!65 &72232785
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -20,29 +20,24 @@ public class PlayerMovementDungeon : MonoBehaviour
     public float forwardSpeed;
     public float sideSpeed;
     public float jumpVelocity = 0;
-    private bool jumpCheck;
-    private float Top;
-
 
     void Start()
     {
         
         _groundChecker = transform.GetChild(0);
-        Top =  GameObject.Find("Player").transform.position.y + 6f;
-    }
-    private void Update()
-    {
-        jumpCheck = Input.GetButtonDown("Jump");
     }
 
     void FixedUpdate()
     {
-        _isGrounded = Physics.CheckSphere(_groundChecker.position, GroundDistance, Ground, QueryTriggerInteraction.Ignore);
-        if (jumpCheck && _isGrounded)
+        if (Input.GetKey(KeyCode.Space))
         {
-            rb.velocity = new Vector3(0, 0, 0);
-            rb.AddForce(Vector3.up * jumpVelocity, ForceMode.VelocityChange);
-            //rb.velocity = Vector3.up * jumpVelocity;
+            _isGrounded = Physics.CheckSphere(_groundChecker.position, GroundDistance, Ground, QueryTriggerInteraction.Ignore);
+            if (_isGrounded)
+            {
+                rb.velocity = new Vector3(0, 0, 0);
+                rb.AddForce(Vector3.up * jumpVelocity, ForceMode.VelocityChange);
+                //rb.velocity = Vector3.up * jumpVelocity;
+            }
         }
         transform.position += Vector3.forward * Time.deltaTime * forwardSpeed;
         //rb.AddForce(Vector3.forward * forwardSpeed);
@@ -52,12 +47,6 @@ public class PlayerMovementDungeon : MonoBehaviour
             forwardSpeed += 0.1f * Time.deltaTime;
             sideSpeed += 0.1f * Time.deltaTime;
         }
-
-        if(GameObject.Find("Player").transform.position.y >= Top)
-        {
-            rb.AddForce(-Vector3.up * jumpVelocity, ForceMode.VelocityChange);
-        }
-
 
         if (transform.position.x <=5 && Input.GetKey("d"))
         {
