@@ -1037,7 +1037,7 @@ MonoBehaviour:
   lowMultiplier: 2
   forwardSpeed: 30
   sideSpeed: 20
-  jumpVelocity: 12
+  jumpVelocity: 18
 --- !u!1 &971848856
 GameObject:
   m_ObjectHideFlags: 0
