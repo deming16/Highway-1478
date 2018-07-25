@@ -18,6 +18,8 @@ public class PlayerCollisionDungeon : MonoBehaviour {
             }
 
             FindObjectOfType<Score>().enabled = false;
+            GetComponent<Highscores>().AddNewHighscore(PlayerStats.Username, int.Parse(score.text), "wLQXPkNC6UOl2qSYPneESwf0qATGENPUm3zswBrSayrA");
+
             GetComponent<PlayerMovementDungeon>().enabled = false;
             FindObjectOfType<GameManager>().endGame();
         }

@@ -647,6 +647,7 @@ GameObject:
   - component: {fileID: 713184934}
   - component: {fileID: 713184933}
   - component: {fileID: 713184932}
+  - component: {fileID: 713184937}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -743,6 +744,17 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &713184937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 713184931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c8dd849d5aad984c9572bc18b75d6f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &727157668
 GameObject:
   m_ObjectHideFlags: 0
@@ -912,6 +924,7 @@ GameObject:
   - component: {fileID: 793442892}
   - component: {fileID: 793442898}
   - component: {fileID: 793442893}
+  - component: {fileID: 793442899}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1033,10 +1046,22 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1024
   rb: {fileID: 793442892}
-  dashSpeed: 30
+  fallMultiplier: 2.5
+  lowMultiplier: 2
   forwardSpeed: 30
   sideSpeed: 20
   jumpVelocity: 18
+--- !u!114 &793442899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 793442891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c8dd849d5aad984c9572bc18b75d6f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &971848856
 GameObject:
   m_ObjectHideFlags: 0

@@ -19,6 +19,8 @@ public class PlayerCollisionSkytrain : MonoBehaviour {
                 PlayerPrefs.SetInt("SkytrainScore", int.Parse(score.text));
             }
 
+            GetComponent<Highscores>().AddNewHighscore(PlayerStats.Username,int.Parse(score.text), "vDXficLh5kWE8x_tdYDuZQiUQMFcu3Vk2pjAXJL3SJVg");
+
             GetComponent<PlayerMovementSkytrain>().enabled = false;
             FindObjectOfType<GameManager>().endGame();
         }

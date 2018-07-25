@@ -42,11 +42,28 @@ public class PauseMenu : MonoBehaviour {
     public void QuitGame()
     {
         string level = SceneManager.GetActiveScene().name.Substring(8);
+        string privateCode;
 
         if (PlayerPrefs.GetInt(level + "Score", 0) < int.Parse(score.text))
         {
             PlayerPrefs.SetInt(level + "Score", int.Parse(score.text));
         }
+
+        switch(level)
+        {
+            case "Highway":
+                privateCode = "JkQun3thcUuRkaWAX_U4mARcKgolbVlkmoy6rsC7-T7Q";
+                break;
+            case "Dungeon":
+                privateCode = "wLQXPkNC6UOl2qSYPneESwf0qATGENPUm3zswBrSayrA";
+                break;
+            default:
+                privateCode = "vDXficLh5kWE8x_tdYDuZQiUQMFcu3Vk2pjAXJL3SJVg";
+                break;
+        }
+
+        GetComponent<Highscores>().AddNewHighscore(PlayerStats.Username, int.Parse(score.text), privateCode);
+
 
         Destroy(GameObject.Find("AudioManager"));
         Time.timeScale = 1f;

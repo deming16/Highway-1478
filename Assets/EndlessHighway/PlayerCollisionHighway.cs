@@ -17,6 +17,8 @@ public class PlayerCollisionHighway : MonoBehaviour {
                 PlayerPrefs.SetInt("HighwayScore", int.Parse(score.text));
             }
 
+            GetComponent<Highscores>().AddNewHighscore(PlayerStats.Username, int.Parse(score.text), "JkQun3thcUuRkaWAX_U4mARcKgolbVlkmoy6rsC7-T7Q");
+
             GetComponent<PlayerMovementHighway>().enabled = false;
             FindObjectOfType<GameManager>().endGame();
         }

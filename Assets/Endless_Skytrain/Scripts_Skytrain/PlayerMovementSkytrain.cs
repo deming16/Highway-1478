@@ -10,6 +10,7 @@ public class PlayerMovementSkytrain : MonoBehaviour
     
     public LayerMask Ground;
     public Rigidbody rb;
+    public float dashSpeed = 20;
     public float fallMultiplier = 2.5f;
     public float lowMultiplier = 2f;
     
@@ -48,6 +49,10 @@ public class PlayerMovementSkytrain : MonoBehaviour
             sideSpeed += 0.1f * Time.deltaTime;
         }
 
+        if (Input.GetKey(KeyCode.W))
+        {
+            rb.AddForce(Vector3.forward * forwardSpeed * dashSpeed);
+        }
 
         if (transform.position.x <=5 && Input.GetKey("d"))
         {
