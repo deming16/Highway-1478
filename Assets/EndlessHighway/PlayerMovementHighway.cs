@@ -10,6 +10,7 @@ public class PlayerMovementHighway : MonoBehaviour {
     public Rigidbody rb;
     public float fallMultiplier = 2.5f;
     public float lowMultiplier = 2f;
+    public float dashSpeed = 20;
 
 
     private Vector3 _velocity;
@@ -39,7 +40,10 @@ public class PlayerMovementHighway : MonoBehaviour {
             }
         }
         transform.position += Vector3.forward * Time.deltaTime * forwardSpeed;
-        //rb.AddForce(Vector3.forward * forwardSpeed);
+        if (Input.GetKey(KeyCode.W))
+        {
+            rb.AddForce(Vector3.forward * forwardSpeed * dashSpeed);
+        }
         if (forwardSpeed <= 40f)
         {
 
