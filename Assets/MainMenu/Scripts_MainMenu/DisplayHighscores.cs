@@ -1,4 +1,3 @@
-
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
@@ -8,6 +7,7 @@ using TMPro;
 public class DisplayHighscores : MonoBehaviour
 {
     public TMP_Text[] highscoreFields;
+    public Dropdown selectedLeaderboard;
     Highscores highscoresManager;
     private string publicCode = "5b37ce15191a8a0bccd5f43e";
 
@@ -31,6 +31,22 @@ public class DisplayHighscores : MonoBehaviour
             {
                 highscoreFields[i].text = highscoreList[i].username + "  " + highscoreList[i].score;
             }
+        }
+    }
+
+    public void boardActivate()
+    {
+        switch (selectedLeaderboard.value)
+        {
+            case 0:
+                DisplayHighway();
+                break;
+            case 1:
+                DisplayDungeon();
+                break;
+            default:
+                DisplaySkytrain();
+                break;
         }
     }
 

@@ -6043,7 +6043,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1057370739}
-        m_MethodName: activateBoard
+        m_MethodName: boardActivate
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
